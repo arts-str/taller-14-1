@@ -1,3 +1,19 @@
 main {
     min-height: calc(100vh - 160px);
-  }
+}
+
+#contenedor{
+  display: grid;
+  justify-content: space-between;
+  row-gap: 2rem;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.card-img-top{
+  max-height: 10rem;
+  object-fit: cover;
+}
+.card-text{
+  max-height: 5rem;
+  overflow-y: auto;
+}
